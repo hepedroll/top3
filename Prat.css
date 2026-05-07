@@ -1,0 +1,132 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.rd {
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+        --top-color: #f7b8dd;
+    --bottom-color: #c2ecff;
+    --My-gradient: linear-gradient(var(--top-color), var(--bottom-color));
+     --top-color-ac: #742424;
+    --My-gradient-ac: linear-gradient(var(--top-color-ac), var(--bottom-color));
+    --top-color-sw: #93d6fd;
+    --My-gradient-sw: linear-gradient(var(--top-color-sw), var(--bottom-color));
+    background: #c2ecff;
+    height: 100vh;
+}
+
+ img{
+    width: 3rem;
+    height: 3rem;
+}
+
+#searchs {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#caixa {
+align-items: center;
+width: 200px;
+height: 200px;
+margin: 50px;
+float: left;
+background:var(--My-gradient);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+
+}
+
+#caixa h2 {
+    margin-top: 0;
+    color: white;
+}
+
+#caixa1 {
+align-items: center;
+width: 200px;
+height: 200px;
+margin: 50px;
+float: left;
+background:var(--My-gradient-ac);
+border-radius: 20px;
+flex-direction: column;
+
+}
+
+#caixa1 h2 {
+    margin-top: 0;
+    color: white;
+}
+
+#caixa1 img{
+    width: 200px;
+    height:200px;
+}
+
+#caixa img{
+    width: 200px;
+    height:200px;
+}
+
+#caixa2 {
+align-items: center;
+width: 200px;
+height: 200px;
+margin: 50px;
+float: left;
+background:var(--My-gradient-sw);
+border-radius: 20px;
+flex-direction: column;
+}
+
+#caixa2 h2 {
+    margin-top: 0;
+    color: white;
+}
+
+#caixa2 img{
+    width: 200px;
+    height:200px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #9bc7e0;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 25px;
+    width: 1000px;
+    height: 250px;
+}
+
+.copyright {
+    background: #b8d8eb;
+    padding: 10px;
+    margin-top: auto;
+    align-items: center;
+    flex-direction: column;
+
+    border-top: 4px solid #fafafa;
+    color:white;
+}
+
