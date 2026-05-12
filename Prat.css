@@ -35,10 +35,19 @@ body{
     height: 3rem;
 }
 
+.imgs img{
+  transition:0.3s;
+}
+
+.imgs img:hover {
+    transform: scale(1.5);
+}
+
 #searchs {
     align-items: center;
     display: flex;
     flex-direction: column;
+  
 }
 
 #caixa {
@@ -76,12 +85,12 @@ flex-direction: column;
     color: white;
 }
 
-#caixa1 img{
+#caixa1 img {
     width: 200px;
-    height:200px;
+    height: 200px;
 }
 
-#caixa img{
+#caixa img {
     width: 200px;
     height:200px;
 }
@@ -130,3 +139,7 @@ flex-direction: column;
     color:white;
 }
 
+.RD img{
+    width: 75px;
+    height: 75px;
+}
