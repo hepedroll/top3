@@ -1,0 +1,15 @@
+body {
+      margin: 0;
+      height: 100vh;
+
+      background-image: url('13c3d6d30072b6817d2a9af47aabdc8c.gif');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    h1{
+        color: #ffffff
+    }
+    p{
+        color: #ffffff
+    }
